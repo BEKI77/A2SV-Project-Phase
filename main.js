@@ -20,22 +20,26 @@ function addTask (event){
 
         // create a done button element
 
-        const doneButton = document.createElement('button');
-        doneButton.textContent = 'Done';
-        doneButton.style.margin = '5px';
-        doneButton.addEventListener('click', doneTask);
+        const editButton = document.createElement('button');
+        editButton.textContent = 'Edit Task';
+        editButton.style.margin = '5px';
+        editButton.addEventListener('click', editTask);
 
         const contentContainer = document.createElement("div");
         contentContainer.style.display = "flex";
         contentContainer.style.justifyContent = "space-between";
-        contentContainer.appendChild(document.createTextNode(task));
+
+
+        const addedtask = document.createElement("span");
+        addedtask.textContent = task;
+        contentContainer.appendChild(addedtask);
 
         const smalldiv = document.createElement("div");
         smalldiv.style.display = "flex";
         smalldiv.style.justifyContent = "space-between";
         
+        smalldiv.appendChild(editButton);
         smalldiv.appendChild(deleteButton);
-        smalldiv.appendChild(doneButton);
         contentContainer.appendChild(smalldiv);
         
 
@@ -53,7 +57,29 @@ function deleteTask(event){
     li.parentNode.removeChild(li);
 }
 
-function doneTask(event){
+function editTask(event){
     const li = event.target.parentNode.parentNode;
-    li.classList.add('done');
+    
+    const taskElement = li.querySelector('span');
+    
+    taskElement.contentEditable = true;
+    taskElement.focus();
+    
+    const saveButton = document.createElement('button');
+    saveButton.textContent = 'Save';
+    saveButton.style.margin = '5px';
+    saveButton.addEventListener('click', saveTask);
+    
+    const buttonsContainer = li.querySelector('div');
+    buttonsContainer.appendChild(saveButton);
+}
+
+function saveTask(event) {
+    const li = event.target.parentNode.parentNode;
+    const taskElement = li.querySelector('span');
+    
+    taskElement.contentEditable = false;
+    
+    const buttonsContainer = li.querySelector('div');
+    buttonsContainer.removeChild(event.target);
 }
