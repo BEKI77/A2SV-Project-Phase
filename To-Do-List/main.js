@@ -63,6 +63,7 @@ function editTask(event){
     const taskElement = li.querySelector('span');
     
     taskElement.contentEditable = true;
+
     taskElement.focus();
     
     const saveButton = document.createElement('button');

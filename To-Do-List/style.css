@@ -112,7 +112,7 @@ button:active {
     background-color: #ccc;
 }
 
-.done {
-    text-decoration: line-through;
-    opacity: 0.5;
+span:focus{
+    outline: none;
+    background-color: #04192c;
 }
