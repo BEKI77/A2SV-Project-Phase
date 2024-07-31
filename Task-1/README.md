@@ -5,6 +5,9 @@ A simple To-Do List application built with JavaScript and HTML.
 ## Description
 
 This project is a basic To-Do List application that allows users to add tasks, mark them as done, and delete them. The application is built using HTML and JavaScript.
+
+##
+
 ![Alt text](/src/Task-1&Task-2-img/IMG-1.png)
 - The primary look of the page
 
