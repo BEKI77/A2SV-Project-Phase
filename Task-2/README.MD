@@ -34,7 +34,7 @@ git clone https://github.com/BEKI77/A2SV-Project-Phase
 2. Install the dependencies:
 ```bash
 cd A2SV-Project-Phase/Task-1
-
+```
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
