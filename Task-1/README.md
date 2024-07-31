@@ -13,5 +13,14 @@ This project is a basic To-Do List application that allows users to add tasks, m
 - Delete tasks: Users can click the "Delete" button next to a task to remove it from the list.
 
 ## Installation
-
 1. Clone the repository:
+```bash
+git clone https://github.com/BEKI77/A2SV-Project-Phase/Task-1
+```
+2. Install the dependencies:
+```bash
+cd Task-1
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
