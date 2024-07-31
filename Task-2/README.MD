@@ -17,11 +17,11 @@ This project is a basic To-Do List application that allows users to add tasks, m
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/BEKI77/A2SV-Project-Phase/Task-2
+git clone https://github.com/BEKI77/A2SV-Project-Phase/
 ```
 2. Install the dependencies:
 ```bash
-cd Task-2
+cd A2SV-Project-Phase/Task-2
 
 ## Contributing
 

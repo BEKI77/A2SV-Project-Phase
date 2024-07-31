@@ -81,4 +81,4 @@ function saveTask(event: Event): void {
 
     const buttonsContainer = li.querySelector('div') as HTMLDivElement;
     buttonsContainer.removeChild(button);
-}`
+}
