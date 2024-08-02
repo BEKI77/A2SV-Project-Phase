@@ -18,10 +18,11 @@ This is a simple contact form built with React and CSS. The form sends an email 
 
 ## Layout
 
-[!Alt](../../src/Task5-img/IMG1.png)
+![Alt Text](../../src/Task5-img/IMG1.png)
+
 <br/>
 
-[!Alt](../../src/Task5-img/IMG2.png)
+![Alt Text](../../src/Task5-img/IMG2.png)
 
 ## Contributing
 
