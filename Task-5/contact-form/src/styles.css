@@ -1,0 +1,116 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* font-size: 20px;
+    background-color: rgb(223, 223, 223);
+    width: 60%;
+    margin: 10px auto; */
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2044837-jpeg.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+  .App{
+    background-color:rgba(255, 245, 245, 0.26);
+    padding: 20px;
+    backdrop-filter: blur(20px);
+  }
+  .App::after{
+    opacity: 0.5;
+  }
+  .header{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    background: rgb(85, 3, 34);
+    border: solid 1px  rgb(31, 1, 11);
+    color: #ffffff;
+  }
+  .headerContainer{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+  }
+  .icon{
+    margin:auto;
+    margin-right: 20px;
+    margin-left: 30px
+  }
+  .title{
+    margin-right: 60px;
+  }
+  .errorMsg {
+    max-width: 350px;
+    color: #f21e08;
+    padding: 2px 0;
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-control label {
+    width: 20%;
+    padding-right: 20px;
+    margin-bottom: 5px;
+  }
+  input, textarea{
+    border: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: #e4e3e3;
+    margin-bottom: 10px;
+  }
+  input{
+    height: 25px;
+  
+  }
+  textarea{
+    resize: none;
+  }
+ 
+  button {
+    background-color: rgb(85, 3, 34);
+    height: 40px;
+    width: 200px;
+    font-size: medium;
+    max-width: 400px;
+    margin: auto;
+    padding: 5px 10px;
+    border: none;
+    color: #ffffff;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+
+  button:hover{
+    background-color:rgb(59, 1, 23);
+    border: 1px solid whitesmoke;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      width: 90%;
+    }
+  
+    .errorMsg {
+      max-width: 100%;
+    }
+  
+    .form-control {
+      flex-direction: column;
+    }
+  
+    .form-control input[type="text"],
+    .form-control input[type="password"] {
+      width: inherit;
+    }
+  }
