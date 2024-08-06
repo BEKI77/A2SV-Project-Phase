@@ -4,9 +4,11 @@ import "./styles.css";
 
 export default function App() {
 
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors },reset } = useForm();
 
-  const onSubmit = handleSubmit((data) => {console.log(data);})
+  const onSubmit = handleSubmit((data) => {console.log(data);
+    reset();
+  })
   
   return (
     <div className="App">

@@ -75,6 +75,7 @@ body {
   }
   textarea{
     resize: none;
+    height: 100px;
   }
  
   button {
