@@ -30,15 +30,15 @@ This is a job listing app where users can browse and search for job listings, ap
 
 ## Layout for Task 7
 
-![alt text](../src/TASK7-img/IMG1.png )
+![alt text](../src/Task7-img/IMG1.png )
 
 <br/>
 
-![alt text](../src/TASK7-img/IMG2.png )
+![alt text](../src/Task7-img/IMG2.png )
 
 <br/>
 
-![alt text](../src/TASK7-img/IMG3.png )
+![alt text](../src/Task7-img/IMG3.png )
 
 ## Installation
 
