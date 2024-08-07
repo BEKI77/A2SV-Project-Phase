@@ -5,8 +5,8 @@ const RequiredSkill = (props:any) => {
     <main className={RequiredSkillStyle}>
         <h1 className='font-extrabold text-4xl' >Required Skill</h1>
         <div className={con1}>
-          {props.about.required_skills.map((skill:String) => (
-            <label key={props.about.required_skills.indexOf(skill)} className={lebel}> {skill}</label>
+          {props.requiredSkills.map((skill:String) => (
+            <label key={props.requiredSkills.indexOf(skill)} className={lebel}> {skill}</label>
           ))}
         </div>
     </main>

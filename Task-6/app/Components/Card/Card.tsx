@@ -6,7 +6,7 @@ function Card(props: any) {
   return (
     <div className={cardStyle}>
         <div className = {IconStyle}>
-          <CiAirportSign1 />
+          <img src={props.logoUrl} className='m-auto '/>
         </div>
         <div className={container1}>
           
@@ -16,7 +16,7 @@ function Card(props: any) {
           <div className={subHeader}>
             <span>{props.company}</span>
             <VscIssues className = {smallIcon}/>
-            <span>{props.about.location}</span>
+            <span>{props.location}</span>
           </div>
           
           <div className={description}>
@@ -25,12 +25,12 @@ function Card(props: any) {
           
           <div className={labels}>
             <div className ={leb1}>
-              <label>In-person</label>
+              <label>{props.opType.toUpperCase()}</label>
             </div>
             <h1 className='my-auto text-gray-300 text-3xl'>|</h1>
             <div className={leb2}>
-              {props.about.categories.map((category:String) => (
-                <label key={props.about.categories.indexOf(category)} className={lebel} >{category}</label>
+              {props.categories.map((category:String) => (
+                <label key={props.categories.indexOf(category)} className={lebel} >{category}</label>
               ))}
             </div>
           

@@ -5,4 +5,4 @@ export const ConDes = `m-2 p-2 `
 export const ConCan = `m-2 p-2 `
 export const ConRes = `m-2 p-2 `
 export const ConWhere = `m-2 p-2`
-export const ResDiv = `flex flex-row justify-start`
+export const ResDiv = `flex justify-start`
