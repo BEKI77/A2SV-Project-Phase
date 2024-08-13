@@ -1,0 +1,1 @@
+export const List = `mx-auto mt-3 w-2/3 m-3 p-3 flex flex-col flex-evenly`

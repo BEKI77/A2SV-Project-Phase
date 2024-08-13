@@ -1,0 +1,11 @@
+export const cardStyle = `bg-transparent text-black border border-1-gray-400 rounded-3xl flex flex-between p-3 m-3`;
+export const IconStyle = `m-3 p-3 h-[125px] w-[125px] rounded-full`
+export const container1 = `m-3 p-3 max-h-[300px] w-5/6`
+export const Header = `text-3xl font-medium m-2`
+export const subHeader = `m-2 text-sm text-gray-500 flex`
+export const smallIcon = `m-1 my-auto`
+export const description = `m-2 h-3/6 overflow-hidden text-sm text-gray-800`
+export const labels = `m-2 h-1/6 flex overflow-hidden`
+export const leb1 = `rounded-full my-auto p-1 text-sm font-weight-[100] min-w-[100px] text-center bg-emerald-100 text-emerald-600`
+export const leb2 = `mx-1 flex flex-evenly w-5/6`
+export const lebel = `rounded-full my-auto mx-2 p-1 text-sm truncate min-w-[100px] max-w-[150px] h-[30px]  text-center text-orange-600 bg-transparent  border border-1 border--600`;
